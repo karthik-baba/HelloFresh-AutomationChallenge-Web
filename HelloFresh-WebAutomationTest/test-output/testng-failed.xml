@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.hellofresh.RegressionSuite.CheckoutTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="checkoutVerificationTest"/>
+          <include name="setup"/>
+          <include name="setupTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.hellofresh.RegressionSuite.CheckoutTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

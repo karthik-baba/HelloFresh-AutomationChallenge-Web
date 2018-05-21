@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44047" started-at="2018-05-20T10:50:12Z" finished-at="2018-05-20T10:50:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44047" started-at="2018-05-20T10:50:12Z" finished-at="2018-05-20T10:50:56Z">
+      <class name="com.hellofresh.RegressionSuite.CheckoutTest">
+        <test-method status="PASS" signature="setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.hellofresh.RegressionSuite.CheckoutTest@68be2bc2]" name="setup" is-config="true" duration-ms="22" started-at="2018-05-20T16:20:11Z" finished-at="2018-05-20T16:20:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@67304a40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.hellofresh.RegressionSuite.CheckoutTest@68be2bc2]" name="setupTest" is-config="true" duration-ms="8405" started-at="2018-05-20T16:20:12Z" finished-at="2018-05-20T16:20:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="checkoutVerificationTest()[pri:0, instance:com.hellofresh.RegressionSuite.CheckoutTest@68be2bc2]" name="checkoutVerificationTest" duration-ms="33584" started-at="2018-05-20T16:20:20Z" finished-at="2018-05-20T16:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutVerificationTest -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.hellofresh.RegressionSuite.CheckoutTest@68be2bc2]" name="tearDownTest" is-config="true" duration-ms="2046" started-at="2018-05-20T16:20:54Z" finished-at="2018-05-20T16:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hellofresh.RegressionSuite.CheckoutTest@68be2bc2]" name="teardown" is-config="true" duration-ms="0" started-at="2018-05-20T16:20:56Z" finished-at="2018-05-20T16:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.hellofresh.RegressionSuite.CheckoutTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,229 @@
+H1
+{
+  font-family:Ubuntu, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: navy;
+  text-align: center;
+
+}
+H2
+{
+
+  font-family:Ubuntu, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: GREY;
+  text-align:center;
+}
+H3
+{
+  font-size: 14px;
+  font-family:Ubuntu, sans-serif;
+  font-weight: bold;
+  color: BLACK;
+}
+
+.headerCells
+{
+  background: #003366;
+  color:white;
+  font-weight: bold;
+  padding: 5px;
+
+}
+.headerCells-green
+{
+  color : limegreen;
+  background: #003366;
+  font-weight: bold;
+  padding: 5px;
+}
+.headerCells-red
+{
+  color : coral;
+  background: #003366;
+  font-weight: bold;
+  padding: 5px;
+}
+.headerCells-orange
+{
+  color : orange;
+  background: #003366;
+  font-weight: bold;
+  padding: 5px;
+}
+
+
+table.outer
+{
+  width: 100%;
+  border: 1px solid black;
+  /*border-color: black;*/
+  align:center ;
+  color: black;
+}
+
+TABLE.SAMPLE2
+{
+  font-family:Ubuntu, sans-serif;
+  font-size: 14px;
+  color: black;
+  border: 1;
+  align:left;
+  table-layout: fixed;
+  width: : 100%;
+}
+
+TABLE.SAMPLE2 td
+{
+	font-size: 14px;
+	font-family:Ubuntu, sans-serif;;
+				font-weight: bold;border-width: 0px;
+				color: BLACK;
+}
+TABLE.SAMPLE
+{
+table-layout: fixed;
+width:100%;
+font-size: 14px;
+font-family:Ubuntu, sans-serif;;
+color: black;
+border: 1px solid black;
+/*border-collapse: collapse;*/
+}
+/*TABLE.SAMPLE tr.H3 td
+{
+	font-size: 12px;
+	font-family:Ubuntu, sans-serif;;
+				font-weight: bold;border-width: 1px;
+				color: white;
+}*/
+/*TABLE.SAMPLE tr.GREEN td.1
+{
+	font-size: 14px;
+	font-family:Ubuntu, sans-serif;;
+				font-weight: bold;border-width: 1px;
+				color: GREEN;
+}
+TABLE.SAMPLE tr.GREEN td.2
+{
+	font-size: 14px;
+	font-family:Ubuntu, sans-serif;;
+				font-weight: bold;border-width: 1px;
+				color: black;
+}
+TABLE.SAMPLE tr.RED td.1
+{
+	font-size: 14px;
+	font-family:Ubuntu, sans-serif;;
+				font-weight: bold;border-width: 1px;
+				color: RED;
+}
+TABLE.SAMPLE tr.RED td.2
+{
+	font-size: 14px;
+	font-family:Ubuntu, sans-serif;;
+				font-weight: bold;border-width: 1px;
+				color: black;
+}
+TABLE.SAMPLE  tr.ORANGE td.1
+{
+	font-size: 14px;
+	font-family:Ubuntu, sans-serif;;
+				font-weight: bold;border-width: 1px;
+				color: ORANGE ;
+}
+TABLE.SAMPLE  tr.ORANGE td.2
+{
+	font-size: 14px;
+	font-family:Ubuntu, sans-serif;;
+				font-weight: bold;border-width: 1px;
+				color: black;
+}
+TABLE.SAMPLE td
+{
+	font-size: 14px;
+	font-family:Ubuntu, sans-serif;;
+	 padding:0.99ex;
+				font-weight: bold;
+				color: #000000;
+}*/
+span.sql
+{
+	font-family: Consolas, monaco, monospace;
+}
+td.pass
+{
+	font-color:limegreen;
+}
+td.fail
+{
+	font-color:brickred;
+}
+td.SQLStatus
+{
+	font-color:grey;
+}
+
+TABLE.mytable
+{
+	 table-layout: fixed;
+	 width: 100%;
+
+}
+TABLE.mytable td
+{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left:4px;
+  padding-right:4px;
+	font-size: 13px;
+	font-family:Ubuntu, sans-serif;;
+	word-break: break-all;
+}
+TABLE.mytable th.head
+{
+	font-size: 14px;
+font-family:Ubuntu, sans-serif;;
+}
+.row-Step {
+  width: 20%;
+	font-size: 14px;
+font-family:Ubuntu, sans-serif;;
+}
+.row-Status {
+  width: 7%;
+	font-size: 14px;
+font-family:Ubuntu, sans-serif;;
+}
+.row-Desc {
+  width: 39%;
+	font-size: 14px;
+font-family:Ubuntu, sans-serif;;
+}
+.row-Grid {
+  width: 10%;
+	font-size: 14px;
+font-family:Ubuntu, sans-serif;;
+}
+.row-ColName {
+  width: 8%;
+	font-size: 14px;
+font-family:Ubuntu, sans-serif;;
+}
+.row-RecordNum {
+  width: 5%;
+	font-size: 14px;
+font-family:Ubuntu, sans-serif;;
+}
+.row-Resp {
+  width: 7%;
+	font-size: 14px;
+font-family:Ubuntu, sans-serif;;
+}
+.row-ColNum {
+  width: 5%;
+	font-size: 14px;
+font-family:Ubuntu, sans-serif;;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular&subset=Latin,Cyrillic">
+	<title>Automated Test Result | Detailed Report</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<style type="text/css" media="screen">
+
+	caption{ margin:10px 0 0 5px; padding:10px; text-align:left; }
+	pre{ font-size:13px; margin:5px; padding:5px; background-color:#f4f4f4; border:1px solid #ccc;  }
+	.mytable{
+		width:100%; font-size:12px;
+		border:1px solid #ccc;
+	}
+	th{ background-color:#003366; color:#FFF; padding:2px; border:1px solid #ccc; }
+	td{ padding:2px; border-bottom:1px solid #ccc; border-right:1px solid #ccc; }
+
+</style>
+<script language="javascript" type="text/javascript" >
+
+	function onLoadOfFile() {
+
+		if(document.getElementById('doc_title').innerHTML.length >=50)
+		{
+			document.getElementById('doc_title').style.fontSize = 'xx-small';
+		}
+		else if(document.getElementById('doc_title').innerHTML.length >= 35)
+		{
+			document.getElementById('doc_title').style.fontSize = 'smaller';
+		}
+	}
+
+</script>
+</head>
+<body onload="onLoadOfFile()">
+	<H1>AUTOMATION TEST RESULT - DETAILED REPORT</H1>
+	<H2>WEB APPLICATION TESTING</H2>
+	<TABLE class="outer">
+		<TR>
+			<TD width="40%">
+				<TABLE class="SAMPLE" >
+					<tr class="H3"width="40%" ><td class="headerCells">TESTCASE NAME  </td><td width=300 id="doc_title">CheckoutTest</td></tr>
+					<tr class="H3"width="30%" ><td class="headerCells">DATE OF EXECUTION  </td><td width=300>05-21-2018</td></tr>
+					<tr class="H3"width="30%" ><td class="headerCells">SERVICES PROJECT </td><td width=300>HELLOFRESH</td></tr>
+				</TABLE>
+			</TD>
+
+
+
+			<TD width="35%">
+				<!--<TABLE class="SAMPLE2" align="center" border=0>
+				<TR>
+				<TD>
+				<!--<H3 align="center"><U>EXECUTION TIME</U></H3>		-->
+				<TABLE class="SAMPLE" align="center">
+					<tr class="H3" width="40%"><td class="headerCells">EXECUTION STARTED ON </td><td>2018-05-21 20:58:58.378</td></tr>
+					<tr class="H3" width="30%"><td class="headerCells">EXECUTION ENDED ON </td><td>2018-05-21 20:59:50.313</td></tr>
+					<tr class="H3" width="30%"><td class="headerCells">EXECUTION DURATION </td><td>0.8656666666666666min(s)</td></tr>
+				</TABLE>
+				<!--</TD>
+				<TD>-->
+				<!--<H3 align="center"><U>EXECUTION STATUS</U></H3>-->
+			</TD>
+
+			<TD width="25%">
+				<TABLE CLASS="SAMPLE" align="center" width="100%" border="1">
+					<tr class="H3" width="40%"><td class="headerCells-green">PASS </td><td>18</td></tr>
+					<tr class="H3" width="30%"><td class="headerCells-red">FAIL </td><td class="2">0</td></tr>
+					<tr class="H3" width="30%"><td class="headerCells-orange">WARNING</td><td class="2">0</td></tr>
+				</table>
+				<!--</TD>
+			</TR>
+		</TABLE>-->
+	</TD>
+</TR>
+
+</TABLE>
+
+<HR>
+
+
+
+	<table id="table1" cellspacing="0" class="mytable" >
+
+		<tr>
+			<!-- <th width="14%"><strong>TESTCASE</strong></th> -->
+			<th class="row-1 row-Step" ><strong>STEP</strong></th>
+			<th class="row-2 row-Status" ><strong>STATUS</strong></th>
+
+			<th  class="row-3 row-Desc" ><strong>DESCRIPTIONS</strong></th>
+			<!-- <th width="11%"><strong>TIME (hh:mm:ss.SSS)</strong></th> -->
+			<th  class="row-4 row-Resp" ><strong>SCREENSHOT</strong></th>
+		</tr>
+<TR><TD>Verify launching url</TD><TD><CENTER>PASS</TD></CENTER><TD>Launched URL:http://automationpractice.com/index.php</TD><TD><CENTER><CENTER><A HREF="C:\Users\kb\git\HelloFresh-WebAutomation\HelloFresh-WebAutomationTest/custom-reports/screenshots/Screenshot-05212018205908472.png" >Screenshot</A></CENTER></TD></CENTER></TR><TR><TD>Verify on clicking Sign In</TD><TD><CENTER>PASS</TD></CENTER><TD>Expected Value :<B><FONT color ="#0000FF"> Authentication page should be displayed </FONT></B><BR>Actual Value :<B><FONT color ="#0000FF"> Authentication page is displayed</FONT></B></TD><TD><CENTER><CENTER><A HREF="C:\Users\kb\git\HelloFresh-WebAutomation\HelloFresh-WebAutomationTest/custom-reports/screenshots/Screenshot-05212018205912896.png" >Screenshot</A></CENTER></TD></CENTER></TR><TR><TD>Verify on clicking Sign In</TD><TD><CENTER>PASS</TD></CENTER><TD>Expected Value :<B><FONT color ="#0000FF"> My Account page should be displayed </FONT></B><BR>Actual Value :<B><FONT color ="#0000FF"> My Account page is displayed</FONT></B></TD><TD><CENTER><CENTER><A HREF="C:\Users\kb\git\HelloFresh-WebAutomation\HelloFresh-WebAutomationTest/custom-reports/screenshots/Screenshot-05212018205920302.png" >Screenshot</A></CENTER></TD></CENTER></TR><TR><TD>Verify on clicking Women section link in My Account Page</TD><TD><CENTER>PASS</TD></CENTER><TD>Expected Value :<B><FONT color ="#0000FF"> Women Section page should be displayed </FONT></B><BR>Actual Value :<B><FONT color ="#0000FF"> Women Section page is displayed</FONT></B></TD><TD><CENTER><CENTER><A HREF="C:\Users\kb\git\HelloFresh-WebAutomation\HelloFresh-WebAutomationTest/custom-reports/screenshots/Screenshot-05212018205928430.png" >Screenshot</A></CENTER></TD></CENTER></TR><TR><TD>Select an item and click in Women Section Page</TD><TD><CENTER>PASS</TD></CENTER><TD>Expected Value :<B><FONT color ="#0000FF"> Product Detail page for that item should be displayed </FONT></B><BR>Actual Value :<B><FONT color ="#0000FF"> Product Details page is displayed</FONT></B></TD><TD><CENTER><CENTER><A HREF="C:\Users\kb\git\HelloFresh-WebAutomation\HelloFresh-WebAutomationTest/custom-reports/screenshots/Screenshot-05212018205933734.png" >Screenshot</A></CENTER></TD></CENTER></TR><TR><TD>Select size, quantity, color of the item</TD><TD><CENTER>PASS</TD></CENTER><TD>Color, size and quantity is selected</TD><TD><CENTER><CENTER><A HREF="C:\Users\kb\git\HelloFresh-WebAutomation\HelloFresh-WebAutomationTest/custom-reports/screenshots/Screenshot-05212018205934451.png" >Screenshot</A></CENTER></TD></CENTER></TR><TR><TD>Click Add To Cart in Product Detail Page</TD><TD><CENTER>PASS</TD></CENTER><TD>Expected Value :<B><FONT color ="#0000FF"> Cart Summary Popup page should be displayed </FONT></B><BR>Actual Value :<B><FONT color ="#0000FF"> Cart Summary Popup page is displayed</FONT></B></TD><TD><CENTER><CENTER><A HREF="C:\Users\kb\git\HelloFresh-WebAutomation\HelloFresh-WebAutomationTest/custom-reports/screenshots/Screenshot-05212018205936290.png" >Screenshot</A></CENTER></TD></CENTER></TR><TR><TD>Click Proceed To Checkout in Cart Summary Popup Page</TD><TD><CENTER>PASS</TD></CENTER><TD>Expected Value :<B><FONT color ="#0000FF"> Shopping Cart Summary page should be displayed </FONT></B><BR>Actual Value :<B><FONT color ="#0000FF"> Shopping Cart Summary page is displayed</FONT></B></TD><TD><CENTER><CENTER><A HREF="C:\Users\kb\git\HelloFresh-WebAutomation\HelloFresh-WebAutomationTest/custom-reports/screenshots/Screenshot-05212018205938451.png" >Screenshot</A></CENTER></TD></CENTER></TR><TR><TD>Click Proceed To Checkout in Shopping Cart Summary page</TD><TD><CENTER>PASS</TD></CENTER><TD>Expected Value :<B><FONT color ="#0000FF"> Addresses page should be displayed </FONT></B><BR>Actual Value :<B><FONT color ="#0000FF"> Addresses page is displayed</FONT></B></TD><TD><CENTER><CENTER><A HREF="C:\Users\kb\git\HelloFresh-WebAutomation\HelloFresh-WebAutomationTest/custom-reports/screenshots/Screenshot-05212018205940346.png" >Screenshot</A></CENTER></TD></CENTER></TR><TR><TD>Click Proceed To Checkout in Addresses page</TD><TD><CENTER>PASS</TD></CENTER><TD>Expected Value :<B><FONT color ="#0000FF"> Shipping page should be displayed </FONT></B><BR>Actual Value :<B><FONT color ="#0000FF"> Shipping page is displayed</FONT></B></TD><TD><CENTER><CENTER><A HREF="C:\Users\kb\git\HelloFresh-WebAutomation\HelloFresh-WebAutomationTest/custom-reports/screenshots/Screenshot-05212018205942576.png" >Screenshot</A></CENTER></TD></CENTER></TR><TR><TD>Select Agree to Terms check box and Click Proceed To Checkout in Shipping page</TD><TD><CENTER>PASS</TD></CENTER><TD>Expected Value :<B><FONT color ="#0000FF"> Payment page should be displayed </FONT></B><BR>Actual Value :<B><FONT color ="#0000FF"> Payment page is displayed</FONT></B></TD><TD><CENTER><CENTER><A HREF="C:\Users\kb\git\HelloFresh-WebAutomation\HelloFresh-WebAutomationTest/custom-reports/screenshots/Screenshot-05212018205945456.png" >Screenshot</A></CENTER></TD></CENTER></TR><TR><TD>Click Bank Wire in Payment Page</TD><TD><CENTER>PASS</TD></CENTER><TD>Expected Value :<B><FONT color ="#0000FF"> Order Summary page should be displayed </FONT></B><BR>Actual Value :<B><FONT color ="#0000FF"> Order Summary page is displayed</FONT></B></TD><TD><CENTER><CENTER><A HREF="C:\Users\kb\git\HelloFresh-WebAutomation\HelloFresh-WebAutomationTest/custom-reports/screenshots/Screenshot-05212018205947195.png" >Screenshot</A></CENTER></TD></CENTER></TR><TR><TD>Click Confirm Order in Order Summary Page</TD><TD><CENTER>PASS</TD></CENTER><TD>Expected Value :<B><FONT color ="#0000FF"> Order Confirmation page should be displayed </FONT></B><BR>Actual Value :<B><FONT color ="#0000FF"> Order Confirmation page is displayed</FONT></B></TD><TD><CENTER><CENTER><A HREF="C:\Users\kb\git\HelloFresh-WebAutomation\HelloFresh-WebAutomationTest/custom-reports/screenshots/Screenshot-05212018205949595.png" >Screenshot</A></CENTER></TD></CENTER></TR><TR><TD>Verify order confirmation text</TD><TD><CENTER>PASS</TD></CENTER><TD>Expected Value :<B><FONT color ="#0000FF"> ORDER CONFIRMATION </FONT></B><BR>Actual Value :<B><FONT color ="#0000FF"> ORDER CONFIRMATION</FONT></B></TD><TD><CENTER><CENTER>NA</CENTER></TD></CENTER></TR><TR><TD>Verify if process is in Payment step</TD><TD><CENTER>PASS</TD></CENTER><TD>Expected Value :<B><FONT color ="#0000FF"> true </FONT></B><BR>Actual Value :<B><FONT color ="#0000FF"> true</FONT></B></TD><TD><CENTER><CENTER>NA</CENTER></TD></CENTER></TR><TR><TD>Verify if process is in Last Step</TD><TD><CENTER>PASS</TD></CENTER><TD>Expected Value :<B><FONT color ="#0000FF"> true </FONT></B><BR>Actual Value :<B><FONT color ="#0000FF"> true</FONT></B></TD><TD><CENTER><CENTER>NA</CENTER></TD></CENTER></TR><TR><TD>Verify order completion text</TD><TD><CENTER>PASS</TD></CENTER><TD>Expected Value :<B><FONT color ="#0000FF"> Your order on My Store is complete. </FONT></B><BR>Actual Value :<B><FONT color ="#0000FF"> Your order on My Store is complete.</FONT></B></TD><TD><CENTER><CENTER>NA</CENTER></TD></CENTER></TR><TR><TD>Verify current url of Order Confirmation Page contains expected value</TD><TD><CENTER>PASS</TD></CENTER><TD>Expected Value :<B><FONT color ="#0000FF"> controller=order-confirmation </FONT></B><BR>Actual Value :<B><FONT color ="#0000FF"> http://automationpractice.com/index.php?controller=order-confirmation&id_cart=564228&id_module=3&id_order=48627&key=76afb2170a71135061f2d4f0eea22a57</FONT></B></TD><TD><CENTER><CENTER>NA</CENTER></TD></CENTER></TR><script language="javascript" type="text/javascript">//<![CDATA[setFilterGrid("table1");//]]></script>

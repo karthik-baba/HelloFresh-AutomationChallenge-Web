@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="HelloFreshRegressionSuite" parallel="tests" thread-count="1">
+  <test name="SignInTest" >
+    <classes>
+      <class name="com.hellofresh.testutils.TestConfig"/>
+      <class name="com.hellofresh.RegressionSuite.SignInTest"/>       
+    </classes>
+ </test>
+ <test name="LoginTest" >
+    <classes>
+      <class name="com.hellofresh.testutils.TestConfig"/>
+      <class name="com.hellofresh.RegressionSuite.LoginTest"/>       
+    </classes>
+ </test>
+ <test name="CheckoutTest" >
+    <classes>
+      <class name="com.hellofresh.testutils.TestConfig"/>
+      <class name="com.hellofresh.RegressionSuite.CheckoutTest"/>       
+    </classes>
+ </test>
+</suite>
