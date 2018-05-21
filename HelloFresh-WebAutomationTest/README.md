@@ -1,3 +1,8 @@
+WEB AUTOMATION CHALLENGE
+========================
+
+**Pre-condition:** Maven and Java 1.8 required
+
 To Executes Scripts
 ------------------------
 mvn clean compile test-compile test -Denv="test"
